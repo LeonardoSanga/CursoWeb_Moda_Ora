@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.divHeader {
+    background-color: #162028;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.divHeader p {
+    color: white;
+    font-size: 5rem;
+    margin: 1rem 0 1rem 15rem;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 6rem;
+    margin-right: 7rem;
+}
+
+.nav-wrapper li {
+    list-style: none;
+}
+
+.destaque {
+    text-transform: uppercase;
+}
+
+.item a {
+    color: #425564;
+    letter-spacing: .2rem;
+    text-decoration: none;
+}
+
+header img {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.main-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #555
+}
+
+.main-section h1 {
+    font-family: 'Italiana';
+    font-size: 4.5rem;
+}
+
+.main-section p {
+    font-size: 2.1rem;
+    line-height: 2;
+}
+
+.galery {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-subtitle {
+    margin-top: 16px;
+    font-size: 2.3rem;
+    color: black;
+}
+
+.small-subtitle {
+    margin-top: 16px;
+    font-size: 2.1rem;
+}
+
+.bottom-section {
+    margin-top: 70px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+
+.bottom-section h1 {
+    font-family: 'Belleza';
+    width: 80%;
+    margin: auto;
+    font-family: 'Italiana';
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.bottom-section p {
+    margin-top: 50px;
+    font-size: 2.3rem;
+    width: 60%;
+    margin-left: 130px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.1rem;
+    letter-spacing: .5rem;
+}
+
